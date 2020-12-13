@@ -1,0 +1,22 @@
+stránky výstavy: 
+
+Zařiďte s pomocí SASS preprocesoru a kompilátoru změnu primary Bootstrap barvy tak, aby odpovídala zvolenému barevnému schématu vašeho webu a aplikujte ji na tlačítko, které spouští modal. Použijte strukturu a provázání .sass souborů stejně jako v ukázkovém projektu, kompilátor si pak zvolte jakýkoliv.
+
+Bootstrap 4.5, plně responzivní, při tvorbě webu dodržovat všechny základní zásady webdesignu, které jsme probírali v základním kurzu (barevné schéma, typografie, ikony, white space, atd.)
+
+hned pod horním okrajem k hornímu okraji přlepený navbar (tedy nebude odrolovávat s obsahem), který nebude součástí první sekce
+
+1. sekce - Home: vhodný podkladový obrázek, na něm velký nadpis název výstavy, pod ním menším název instituce kde se výstava koná a ještě níže pak dvě různě ostylovaná tlačítka. Po zmáčknutí prvního se zobrazí formulář na rezervaci vstupenek (modal) a zároveň na tomto tlačítku bude i tooltip nápověda. Vzhled a potřebné prvky formuláře navrhněte sami. Na druhém tlačítku pak aplikujte popover a animaci (viz poslední bod zadání). Po jeho odkliknutí se dostanete na stránku s loading ikonou (viz předposlední bod zadání). 
+
+2. sekce - O nás: 3 sloupce. každý bude obsahovat obrázek, pod ním nadpis a krátký odstavec textu (každý odstavec textu bude jiným google fontem). Vyřeště BEZ použití prvku card.
+
+3. sekce - Galerie: klasický carousel pouze se základními ovládacími šipkami.
+
+4. sekce - Ohlasy návštěvníků: 4 sloupce, vyřeště pomocí cards
+
+5. sekce - jednoduchý kontaktní formulář
+6. sekce - google mapa
+7. sekce - Kontakty: mail, telefon, adresa, odkazy na FB, twitter, TikTok a Instagram. Vhodně implementovat v této sekci fontawesome ikonky a sekci rozdělit na dvě podsekce. 
+
+Nakonec přidejte do menu novou položku Icon, otevře se nová stránka jejímž jediným obsahem bude vycentrovaná loading icon podle vzoru (loading_icons.wmv - osmá ikona).
+Poté ještě zaříďte, aby druhé z tlačítek v první sekci webu bylo animované podle vzoru button_v4.wmv (barvy ale samozřejmě zvolte podle vašeho barevného schématu, jde hlavně o zachování animačního efektu).

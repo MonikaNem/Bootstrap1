@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loading Icon</title>
+
+        <style>
+            html {
+                background: #dbdfdf;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .loader {
+                width: 50px;
+                height: 50px;
+                background-color:#53b32d;
+                animation: loadingIconAnimation 0.8s ease-out infinite;
+            }
+
+            @keyframes loadingIconAnimation {
+                0% {
+                    transform: scale(0.5);
+                } 
+
+                100% {
+                    transform: scale(1) translate(150px, 0);
+                }           
+            }   
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="loader"></div>
+        </div>
+    </body>
+
+</html>
